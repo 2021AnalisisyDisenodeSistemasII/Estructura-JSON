@@ -1,0 +1,13 @@
+En clientes natural tenemos un ejemplo de 3 clientes con sus respectivos datos,
+el "id" de cada cliente corresponde a su cedula y es su identificador unico
+
+Dentro de la carpeta de "Cuentas_StarBank" se crearan carpetas con el numero del
+"id" de los clientes naturales y dentro de estas estaras respectivamente
+sus cuentas de ahorros y corriente
+
+En clientes empresa tenemos un ejemplo de 2 empresas con sus datos, el "nit"
+de cada emprese es su identificador unico
+
+En Cuentas_Starbank se crearan las carpeta con el numero del "nit" de los
+clientes empresas y dentro de estas estaras respectivamente
+sus cuentas de ahorros y corriente

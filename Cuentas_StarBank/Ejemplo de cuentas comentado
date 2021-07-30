@@ -1,0 +1,41 @@
+//Ejemplo de estructuras para cuentas
+/* Los datos de tasa de interés y comisión de retiro para las cuentas
+se tomarán como constantes, por lo que no se incluirán en
+el archivo Json.
+*/
+
+[
+	{
+		//número de identificación de la cuenta
+		"id_account": "99900025",
+		/*número de identificación del propietario de la cuenta 
+		(puede ser id de cliente natural o NIT de empresa)*/
+		"id_client": "1000025",
+		//saldo de la cuenta
+		"balance": 250000,
+		//Estado actual de la cuenta
+		"isActive": true,
+		//Sucursal donde se creó la cuenta
+		"id_suc": "Sucursal Parque Itagui",
+		//Historial de operaciones realizadas sobre la cuenta
+		"transactions": []
+	}
+]
+
+[
+	{
+		//número de identificación de la cuenta
+		"id_account": "99900025",
+		/*número de identificación del propietario de la cuenta 
+		(puede ser id de cliente natural o NIT de empresa)*/
+		"id_client": "1000025",
+		//saldo de la cuenta
+		"balance": 25000000,
+		//Estado actual de la cuenta
+		"isActive": true,
+		//Sucursal donde se creó la cuenta
+		"id_suc": "Sucursal Parque Itagui",
+		//Historial de operaciones realizadas sobre la cuenta
+		"transactions": []
+	}
+]
