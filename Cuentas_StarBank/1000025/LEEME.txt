@@ -1,8 +1,0 @@
-Cuentas de ahorros y cuentas corrientes tienen los mismos campos
-sus datos corresponden a
-- id de la cuenta
-- id del dueño de la cuenta
-- balance (el dinero que hay dentro de esta cuenta)
-- estado de activa o inactiva
-- sucursal donde se creo la cuenta
-- Array de string que es su historial de transacciones
