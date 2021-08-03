@@ -1,13 +1,59 @@
-En clientes natural tenemos un ejemplo de 3 clientes con sus respectivos datos,
-el "id" de cada cliente corresponde a su cedula y es su identificador unico
+[Actualizacion 03/08/2021]
 
-Dentro de la carpeta de "Cuentas_StarBank" se crearan carpetas con el numero del
-"id" de los clientes naturales y dentro de estas estaras respectivamente
-sus cuentas de ahorros y corriente
+Esto sera la explicacion con el primer cliente que tenemos
+guardado en natural_clients
 
-En clientes empresa tenemos un ejemplo de 2 empresas con sus datos, el "nit"
-de cada emprese es su identificador unico
+//EJEMPLO - EJEMPLO - EJEMPLO//
 
-En Cuentas_Starbank se crearan las carpeta con el numero del "nit" de los
-clientes empresas y dentro de estas estaras respectivamente
-sus cuentas de ahorros y corriente
+	"25033578": {
+        	"accounts": [],
+	        "phone": 3200722812,
+        	"client_name": "Curtis Archer",
+        	"client_occupation": "estudiante",
+        	"client_address": "339 Lauren Avenue Williamsonborough, OR 84368"
+	}
+
+//EJEMPLO - EJEMPLO - EJEMPLO//
+//EXPLICACION - EXPLICACION - EXPLICACION//
+
+	"client_id": {				//Este es el client_id para los clientes naturales es su Cedula
+		"accounts" [Strings Array],	//Aqui se escriben los id de las cuentas que corresponden a este cliente
+		"phone": "String",		//LOS TELEFONOS DEBEN SER STRINGS
+		"client_name": "String", 	//El nombre del dueño de la cuenta
+		"client_occupation": "String",	//En que trabaja este cliente
+		"client_address": "String",	//La direccion del cliente
+	}
+
+//EXPLICACION - EXPLICACION - EXPLICACION//
+
+Esto sera la explicacion con el primer cliente que tenemos
+guardado en company_clients
+
+//EJEMPLO - EJEMPLO - EJEMPLO//
+
+	"35559562-1": {
+        	"accounts": [],
+	        "phone": 3181608631,
+        	"client_name": "Joshua Powell",
+	        "client_occupation": "cajero",
+	        "client_address": "0096 David Meadows Suite 231 Brookeborough, CO 43491",
+	        "client_id": "35559562",
+        	"company_name": "Pan Diaz",
+	        "cluster": "internet"
+    	}
+
+//EJEMPLO - EJEMPLO - EJEMPLO//
+//EXPLICACION - EXPLICACION - EXPLICACION//
+
+	"nit": {				//Este es el nit de la empresa, generalmente es su Cedula seguido de un guion y un numero de confirmacion
+        	"accounts" [Strings Array],	//Aqui se escriben los id de las cuentas que corresponden a este cliente
+	        "phone": "String",		//LOS TELEFONOS DEBEN SER STRINGS
+		"client_name": "String",	//El nombre del dueño de la cuenta
+		"client_occupation": "String",	//En que trabaja este cliente
+		"client_address": "String",	//La direccion del cliente
+	        "client_id": "35559562",	//la cedula del dueño legal de esta cuenta
+        	"company_name": "Pan Diaz",	//Nombre de la compañia
+	        "cluster": "internet"		//Sector laboral de la compañia
+    	}
+
+//EXPLICACION - EXPLICACION - EXPLICACION//
