@@ -5,17 +5,15 @@
 		"to_account_id": "98035022",
 		"value": "250000",
 		"transaction_date": "04-08-2021",
-		"sucursal_id": "3",
-	}
-	
+		"sucursal_id": "3"
+	},
 	"35552-R": {
 		"transaction_name": "Retiro",
 		"from_account_id": "99900025",
 		"value": "14000",
 		"transaction_date": "02-08-2021",
 		"sucursal_id": "2"
-	}
-	
+	},
 	"352352-T": {
 		"transaction_name": "Transferencia",
 		"from_account_id": "99900025",
@@ -23,8 +21,7 @@
 		"value": "14000",
 		"transaction_date": "02-08-2021",
 		"sucursal_id": "2"
-	}
-	
+	},
 	"25590-X": {
 		"transaction_name": "Cancelacion cuenta",
 		"from_account_id": "99900025",
@@ -32,5 +29,4 @@
 		"transaction_date": "03-08-2021",
 		"sucursal_id": "5"
 	}
-	
 }
