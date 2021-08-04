@@ -1,0 +1,26 @@
+{
+	"id_account": {
+		"id_client": "String",
+		"balance": "dinero dentro de la cuenta",
+		"isActive": "Boolean",
+		"id_suc": "id_sucursal donde se creo"
+		"transactions": [],
+		"creation_date": "Date"
+	},
+	"99900025": {
+		"id_client": "25033578",
+		"balance": 250250000,
+		"isActive": true,
+		"id_suc": "2",
+		"transactions": ["352352-T"],
+		"creation_date": "08-08-2016"
+	},
+	"98035022": {
+		"id_client": "25033578",
+		"balance": 0,
+		"isActive": false,
+		"id_suc": "3",
+		"transactions": [],
+		"creation_date": "04-08-2021"
+	}
+}
