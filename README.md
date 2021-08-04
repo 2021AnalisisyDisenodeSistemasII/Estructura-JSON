@@ -1,3 +1,18 @@
+# Starbank Module 0 - Creation of the JSON
+
+![Universidad de Antioquia](https://www.udea.edu.co/wps/wcm/connect/udea/721b156e-f6bc-4dc8-8595-8b4731c9a8c7/facultad-ingenieria.png?MOD=AJPERES&CVID=nc5CqsS)
+
+---
+## Departamento de Ingeniería de Sistemas
+### Análisis y Diseño de Sistemas II
+### 2021-1
+---
+> Andres Quiroz
+> Juan Cardona 
+> Mauricio Aguiar
+---
+
+
 [Actualizacion 03/08/2021]
 
 Esto sera la explicacion con el primer cliente que tenemos
