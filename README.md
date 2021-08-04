@@ -8,8 +8,7 @@
 ### 2021-1
 ---
 > Andres Quiroz\
-> Juan Cardona\
-> Mauricio Aguiar
+> Juan Cardona
 ---
 
 
