@@ -7,8 +7,8 @@
 ### Análisis y Diseño de Sistemas II
 ### 2021-1
 ---
-> Andres Quiroz
-> Juan Cardona 
+> Andres Quiroz\
+> Juan Cardona\
 > Mauricio Aguiar
 ---
 
