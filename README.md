@@ -20,7 +20,11 @@ guardado en natural_clients
 //EJEMPLO - EJEMPLO - EJEMPLO//
 
 	"25033578": {
-        "accounts": [],
+        "accounts": [
+            "2b2a47884e665b4c",
+            "12a0614b65a4550c",
+            "9f68eb8325106bd9"
+        ],
 		"phone": 3200722812,
         "client_name": "Curtis Archer",
         "client_occupation": "estudiante",
@@ -31,7 +35,11 @@ guardado en natural_clients
 //EXPLICACION - EXPLICACION - EXPLICACION//
 
 	"client_id": {						//Este es el client_id para los clientes naturales es su Cedula
-		"accounts" [Strings Array],		//Aqui se escriben los id de las cuentas que corresponden a este cliente
+		"accounts" [					//Aqui se escriben los id de las cuentas que corresponden a este cliente
+			"String",
+			"String",
+			"String",
+		],
 		"phone": "String",				//LOS TELEFONOS DEBEN SER STRINGS
 		"client_name": "String",		//El nombre del dueño de la cuenta
 		"client_occupation": "String",	//En que trabaja este cliente
@@ -46,7 +54,10 @@ guardado en company_clients
 //EJEMPLO - EJEMPLO - EJEMPLO//
 
 	"35559562-1": {
-       	"accounts": [],
+       	"accounts": [
+            "d935ca7a4d29ae1e",
+            "60401d1521a00cf0"
+        ],
 	    "phone": 3181608631,
       	"client_name": "Joshua Powell",
 	    "client_occupation": "cajero",
@@ -60,7 +71,10 @@ guardado en company_clients
 //EXPLICACION - EXPLICACION - EXPLICACION//
 
 	"nit": {							//Este es el nit de la empresa, generalmente es su Cedula seguido de un guion y un numero de confirmacion
-        "accounts" [Strings Array],		//Aqui se escriben los id de las cuentas que corresponden a este cliente
+        "accounts" [					//Aqui se escriben los id de las cuentas que corresponden a este cliente
+			"String",
+			"String",
+		],
 	    "phone": "String",				//LOS TELEFONOS DEBEN SER STRINGS
 		"client_name": "String",		//El nombre del dueño de la cuenta
 		"client_occupation": "String",	//En que trabaja este cliente
@@ -82,7 +96,9 @@ o en current-accounts.json
 		"balance": 250250000,
 		"isActive": true,
 		"suc_id": "2",
-		"transactions": ["352352-T"],
+		"transactions": [
+			"352352-C"
+		],
 		"creation_date": "08-08-2016"
 	}
 
@@ -94,7 +110,9 @@ o en current-accounts.json
 		"balance": Float,					//Dinero dentro de la cuenta
 		"isActive": Boolean,				//Booleando que nos indica si la cuenta esta activa o no
 		"suc_id": "String",					//id de la sucursal donde se creo esta cuenta
-		"transactions": [Strings Array],	//Array de Strings donde estan los id de las transaciones que a tenido esta cuenta
+		"transactions": [					//Array de Strings donde estan los id de las transaciones que a tenido esta cuenta
+		"Strings Array
+		],
 		"creation_date": "Date"				//Dato tipo Date con la fecha de creacion de la cuenta
 	}
 
@@ -139,7 +157,8 @@ Esta es la explicacion de las primeras 2 sucursales guardadas en sucursals.json
             "41"
         ],
         "sucursal_address": "50932 Williams Locks Johnsonchester, PA 18261",
-        "city": "pereira"
+        "city": "pereira",
+		"account": "69c3b9bdccaee16a"
     },
     "1": {
         "cashiers": [
@@ -147,7 +166,8 @@ Esta es la explicacion de las primeras 2 sucursales guardadas en sucursals.json
             "45"
         ],
         "sucursal_address": "3484 Flores Mission Apt. 641 Kevinberg, AZ 74783",
-        "city": "medellin"
+        "city": "medellin",
+		"account": "76a886d0082f3f1d"
     }
 	
 //EJEMPLO - EJEMPLO - EJEMPLO//
@@ -155,13 +175,14 @@ Esta es la explicacion de las primeras 2 sucursales guardadas en sucursals.json
 
 	"sucursal_id": {						//id de identificacion unico de esta sucursal
 		"cashiers": [						//array de Strings
-			"cashier_id"					//id de identificacion unico de este cajero
-			"cashier_id"					//"
-			"cashier_id"
-			"cashier_id"
+			"cashier_id",					//id de identificacion unico de este cajero
+			"cashier_id",					//"
+			"cashier_id",
+			"cashier_id",
 		],
 		"sucursal_address": "String",		//direccion de la sucursal
-		"city": "String"					//ciudad donde esta ubicada la sucursal
+		"city": "String",					//ciudad donde esta ubicada la sucursal
+		"account": "String"					//aqui va el account_id vinculado a esta sucursal
 	}
 	
 //EXPLICACION - EXPLICACION - EXPLICACION//
@@ -200,3 +221,12 @@ Por ultimo el JSON con las transaciones
 	}
 	
 //EXPLICACION - EXPLICACION - EXPLICACION//
+//NOTA 
+
+	El final del transaction_id se agrega un identificador
+	
+	-C			//Para consignaciones
+	-R			//Para retiros
+	-X			//Para cancelacion
+
+//
